@@ -14,5 +14,15 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: './tests/setup.js'
+  },
+  css: {
+  preprocessorOptions: {
+    less: {
+      javascriptEnabled: true,
+      additionalData: `@import "src/global.less";`
+    }
   }
+}
 })
+
+
