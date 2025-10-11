@@ -7,6 +7,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/** Radio,checkbox 
+ * Default style reset (uncomment to replace with customized radio styles 
+input[type=radio], input[type=checkbox] {
+  appearance: none;        
+  -webkit-appearance: none;  
+  -moz-appearance: none;   
+}
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
