@@ -7,8 +7,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/** Radio,checkbox 
- * Default style reset (uncomment to replace with customized radio styles 
+/** Removes browser default radio/checkbox styling - remove comment to use 
 input[type=radio], input[type=checkbox] {
   appearance: none;        
   -webkit-appearance: none;  
@@ -16,6 +15,11 @@ input[type=radio], input[type=checkbox] {
 }
 */
 
+/** Removes odd yellow line - remove comment to use
+input:focus-visible {
+  outline: none;
+}
+*/
 * {
   box-sizing: border-box;
   margin: 0;
