@@ -20,6 +20,13 @@ input:focus-visible {
   outline: none;
 }
 */
+
+/** Removes odd black line on keyboard focusing on buttons - uncomment to use. 
+.button:focus-visible {
+    outline: none;
+}
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
